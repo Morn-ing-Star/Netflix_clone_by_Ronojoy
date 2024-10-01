@@ -217,3 +217,135 @@ footer{
     color:var(--other-bg-color);
     font-size: 1.1rem;
 }
+
+@media (max-width: 1200px) {
+    .container {
+        padding-inline: 20px; /* Reduce padding for medium screens */
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Adjust heading size */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjust heading size */
+    }
+
+    h3 {
+        font-size: 1.2rem; /* Adjust heading size */
+    }
+
+    .nav-input input {
+        width: 100%; /* Full width for input */
+        max-width: 400px; /* Limit maximum width */
+    }
+
+    .big-features-sections {
+        padding: 40px 20px; /* Adjust padding */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align */
+    }
+
+    .feature-logo img {
+        width: 100%; /* Make images responsive */
+        max-width: 500px; /* Limit maximum width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .primary-button,
+    .secondary-button {
+        width: 100%; /* Full width buttons */
+        max-width: 300px; /* Limit maximum width */
+        padding: 12px 0; /* Adjust padding */
+        text-align: center; /* Center text */
+    }
+}
+
+@media (max-width: 900px) {
+    .header-section {
+        margin-top: 100px; /* Reduce top margin */
+    }
+
+    .flex {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align */
+    }
+
+    .question-section-cards {
+        width: 100%; /* Full width for question cards */
+    }
+
+    .qustions {
+        width: 100%; /* Full width for questions */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .nav-links ul {
+        flex-direction: column; /* Stack nav items vertically */
+        gap: 15px; /* Reduce gap */
+    }
+
+    .logo img {
+        height: 70px; /* Adjust logo size */
+    }
+
+    .big-features-sections {
+        padding: 30px 15px; /* Adjust padding */
+    }
+
+    .feature-logo img {
+        width: 100%; /* Make images responsive */
+        max-width: 400px; /* Limit maximum width */
+    }
+
+    .primary-button,
+    .secondary-button {
+        width: 100%; /* Full width buttons */
+        padding: 10px 0; /* Adjust padding */
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem; /* Smaller heading size */
+    }
+
+    h2 {
+        font-size: 1.3rem; /* Smaller heading size */
+    }
+
+    h3 {
+        font-size: 1rem; /* Smaller heading size */
+    }
+
+    .nav-input input {
+        height: 50px; /* Adjust input height */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .header-content {
+        gap: 15px; /* Reduce gap */
+        text-align: center; /* Center text */
+    }
+
+    .big-features-sections {
+        flex-direction: column; /* Stack features vertically */
+        padding: 20px; /* Reduce padding */
+    }
+
+    .feature-logo img {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .footer-list ul {
+        flex-direction: column; /* Stack footer items */
+        padding: 10px 0; /* Adjust padding */
+    }
+
+    .primary-button,
+    .secondary-button {
+        width: 100%; /* Full width buttons */
+        padding: 10px 0; /* Adjust padding */
+    }
+}
